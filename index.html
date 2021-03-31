@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Form practice</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />   
+    </head>
+    <body>
+        
+        <form action="https://formspree.io/YOUR_EMAIL_HERE" method="post">
+            <label for="name">Name</label>
+            <input 
+            id ="name" 
+            type="text" 
+            name="name" 
+            autofocus="on"
+            required
+            />
+            <label for="email">Email</label>
+            <input 
+            id ="email" 
+            type="text" 
+            name="email" 
+            required
+            />
+            <label for="form-message">Your message:</label>
+            <textarea 
+            name="message" 
+            id="form-message"
+            maxlength="300"
+            ></textarea>
+        </form>  
+
+    </body>
+</html>
