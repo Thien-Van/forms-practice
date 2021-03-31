@@ -24,3 +24,14 @@ form textarea {
   font-family: arial;
   font-size: 13px;
 }
+
+form button {
+  padding: 10px 16px;
+  border-radius: 3px;
+  border: 0;
+  font-family: Tahoma;
+  font-size: 16px;
+  background: grey;
+  color: #fff;
+  margin: 0 8px 10px 0;
+}
